@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+		body, html {
+			height: 100%;
+		}
+
+		.bg {
+			/* The image used */
+			background-image: url("http://logok.org/wp-content/uploads/2014/03/NBC-peacock-logo.png");
+
+			/* Full height */
+			height: 100%;
+
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+
+    <title>Contact Page</title>
+  </head>
+  <body>
+	<div class="jumbotron jumbotron-sm" style="background: #cb1f47; color: #FFF; border-radius: 0px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h1 class="h1">Contact us</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container bg">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="well well-sm">
+					<form method="POST" action="https://formspree.io/dalton_mclaughlin@comcast.com">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input name="nameField" type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+								</div>
+								<div class="form-group">
+									<label for="email">Phone Number</label>
+									<div class="input-group">
+										<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+										<input name="phoneField" type="tel" class="form-control" id="email" placeholder="Enter Phone" required="required" />
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message</button>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name">Message</label>
+									<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<form>
+				<address>
+					<h4><strong>For Exclusive Offers for new Xfinity Customers, Contact your local Comcast Representative</strong></h3><br>
+				</address>
+				<address>
+					<h4><strong>Dalton McLaughlin</strong></h4><br>
+					<h4><strong>603-247-9501</strong></h4><br>
+				</address>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
