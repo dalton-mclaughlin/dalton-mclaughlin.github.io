@@ -1,1 +1,1 @@
-# dalton-mclaughlin-github.io
+# dalton-mclaughlin.github.io
